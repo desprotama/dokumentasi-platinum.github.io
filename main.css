@@ -2296,6 +2296,7 @@ body, input, select, textarea {
 	height: 44px;
 	line-height: 44px;
 	padding: 0 1em;
+	margin-left: 50px;
 	width: 100%;
 	text-align: left;
 }
