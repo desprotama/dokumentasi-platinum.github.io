@@ -2311,7 +2311,7 @@ body, input, select, textarea {
 	width: 6em;
 	border: 0;
 	outline: 0;
-	right: 0;
+	left: 0;
 }
 #titleBar .toggle:before {
 	-moz-osx-font-smoothing: grayscale;
@@ -2333,7 +2333,7 @@ body, input, select, textarea {
 	text-align: center;
 	top: 0;
 	width: 64px;
-	right: 0;
+	left: 0;
 }
 body.header-visible #wrapper, body.header-visible #titleBar {
 	-moz-transform: translateX(-23em);
@@ -2401,11 +2401,11 @@ header.major h2 + p {
 
 #header {
 	width: 17em;
-	-moz-transform: translateX(17em);
-	-webkit-transform: translateX(17em);
-	-ms-transform: translateX(17em);
-	transform: translateX(17em);
-	right: 0;
+	-moz-transform: translateX(-17em);
+	-webkit-transform: translateX(-17em);
+	-ms-transform: translateX(-17em);
+	transform: translateX(-17em);
+	left: 0;
 }
 #header > header {
 	padding: 2em;
